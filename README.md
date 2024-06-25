@@ -38,13 +38,37 @@
 
 ## Installation
 
-```bash
-git clone <repository_url>
-cd animeWorld/
-pip install -r requirements.txt
-python manage.py migrate
-python manage.py runserver
-```
+1. Clone the repository:
+
+   ```
+   git clone <repository_url>
+   ```
+
+2. Install dependencies:
+
+   ```
+   pip install -r requirements.txt
+   ```
+
+3. Apply database migrations:
+
+   ```
+   python manage.py migrate
+   ```
+
+4. Load initial data (if any):
+
+   ```
+   python manage.py loaddata <fixture_file>
+   ```
+
+5. Start the development server:
+
+   ```
+   python manage.py runserver
+   ```
+
+6. Access the application in your web browser at `http://localhost:8000/`.
 
 ---
 
