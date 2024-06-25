@@ -1,9 +1,5 @@
-Certainly! A stylish and unique README file can help make your project stand out. Here's an example of a more visually appealing README for your "animeWorld" e-commerce project:
-
----
-
 <p align="center">
-  <img src="https://example.com/your-logo.png" alt="animeWorld Logo" width="200" />
+<!--   <img src="https://example.com/your-logo.png" alt="animeWorld Logo" width="200" /> -->
 </p>
 
 <h1 align="center">animeWorld</h1>
