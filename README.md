@@ -84,27 +84,21 @@
 
 ## Contributing
 
-Contributions are welcome! To contribute to animeWorld, follow these steps:
-
-1. Fork the repository and create your branch (`git checkout -b feature/your-feature`).
-2. Commit your changes (`git commit -am 'Add some feature'`).
-3. Push to the branch (`git push origin feature/your-feature`).
-4. Create a new Pull Request.
+Contributions are welcome! To contribute to animeWorld, If you find any issues or have suggestions for improvements, please open an issue or create a pull request.
 
 ---
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for details.
-
+Copyright © 2024 All rights reserved | This template is made by NoOb-CodEr786
 ---
 
 <p align="center">
-  Made with ❤️ by Your Name
+  Made with ❤️ by Surya Pratap Sahu
 </p>
 
 ---
 
 ### Contact
 
-For inquiries, contact [your-email@example.com](mailto:your-email@example.com)
+For inquiries, contact [sahusurya1580@gmail.com](mailto:sahusurya1580@gmail.com)
