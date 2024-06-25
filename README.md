@@ -2,7 +2,7 @@
 <!--   <img src="https://example.com/your-logo.png" alt="animeWorld Logo" width="200" /> -->
 </p>
 
-<h1 align="center">animeWorld</h1>
+<h1 align="center">AnimeWorld</h1>
 
 <p align="center">
   <b>A Django-based e-commerce platform for anime posters</b>
