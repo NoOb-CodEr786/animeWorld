@@ -88,6 +88,12 @@ Contributions are welcome! To contribute to animeWorld, If you find any issues o
 
 ---
 
+## Note: Work in Progress
+
+This project is currently under active development. While it is fully functional for browsing and purchasing anime posters, additional features and improvements are planned. Feel free to contribute or provide feedback to help enhance animeWorld!
+
+---
+
 ## License
 
 Copyright © 2024 All rights reserved | This template is made by NoOb-CodEr786
