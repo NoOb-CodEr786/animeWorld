@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alert Messages</title>
+    <!-- Add jQuery CDN -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <style>
+        .container {
+            position: relative;
+        }
+        .alert {
+            padding: 15px;
+            margin: 10px 0;
+            border: 1px solid transparent;
+            border-radius: 4px;
+        }
+        .alert-success {
+            color: #3c763d;
+            background-color: #dff0d8;
+            border-color: #d6e9c6;
+        }
+        .alert-error {
+            color: #a94442;
+            background-color: #f2dede;
+            border-color: #ebccd1;
+        }
+    </style>
+</head>
+<body>
+
+    {% if messages %}
+        {% for message in messages %}
+        <div id="message" class="container">
+            <div {% if message.tags %} class="alert alert-{{ message.tags }}"{% endif %} role="alert">
+                <button type="button" class="close" data-dismiss="alert"><span aria-hidden="true">&times;</span></button>
+                {% if message.level == DEFAULT_MESSAGE_LEVELS.ERROR %}Error: {% endif %}
+                {{ message }}
+            </div>
+        </div>
+        {% endfor %}
+    {% endif %}
+
+    <script>
+        $(document).ready(function(){
+            $(".alert").fadeTo(3000, 500).slideUp(500, function(){
+                $(this).remove(); 
+            });
+        });
+    </script>
+</body>
+</html>
