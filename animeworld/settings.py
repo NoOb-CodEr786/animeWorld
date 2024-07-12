@@ -159,14 +159,18 @@ MESSAGE_TAGS = {
 
 # EMAIL_HOST = 'smtp.gmail.com'
 # EMAIL_PORT = 587
-# EMAIL_HOST_USER = 'suryapratapsahu2017@gmail.com'
-# EMAIL_HOST_PASSWORD = 'Surya@Sahu@2017'
+# EMAIL_HOST_USER = 'your-mail@gmail.com'
+# EMAIL_HOST_PASSWORD = ''
 # EMAIL_USE_TLS = True
 
 
-# EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
-EMAIL_HOST = 'smtp.gmail.com'
-EMAIL_PORT = 587
-EMAIL_USE_TLS = True
-EMAIL_HOST_USER = 'user_name'
-EMAIL_HOST_PASSWORD = 'password'
+# <<<<<<< HEAD
+# # EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+# EMAIL_HOST = 'smtp.gmail.com'
+# EMAIL_PORT = 587
+# EMAIL_USE_TLS = True
+# EMAIL_HOST_USER = 'user_name'
+# EMAIL_HOST_PASSWORD = 'password'
+# =======
+
+# >>>>>>> 174ac46 (handled cart and checkout page for login users)
